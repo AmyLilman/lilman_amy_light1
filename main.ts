@@ -1,3 +1,3 @@
 while (true) {
-    console.log("Light Level:") + input.lightLevel()
+    console.log("Light Level:" + input.lightLevel())
 }
