@@ -9,7 +9,7 @@ while True:
     print("Light Level:" + input.light_level())
     if input.light_level() < 3:
         light.set_all(light.rgb(0, 0, 255))
-    elif input.light_level() > 3 < 10:
+    elif input.light_level() > 3 < 6:
         light.set_all(light.rgb(255, 255, 0))
     else:
         light.clear()
