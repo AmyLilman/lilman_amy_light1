@@ -6,9 +6,9 @@
 //         light.clear()
 while (true) {
     console.log("Light Level:" + input.lightLevel())
-    if (input.lightLevel() < 5) {
+    if (input.lightLevel() < 3) {
         light.setAll(light.rgb(0, 0, 255))
-    } else if (input.lightLevel() > 5 && 5 < 8) {
+    } else if (input.lightLevel() > 3 && 3 < 10) {
         light.setAll(light.rgb(255, 255, 0))
     } else {
         light.clear()
